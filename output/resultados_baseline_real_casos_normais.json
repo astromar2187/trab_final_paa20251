@@ -1,0 +1,196 @@
+{
+  "grafo_simples_3": {
+    "num_vertices": 3,
+    "num_arestas": 2,
+    "cores_minimas_encontradas": 2,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "tempos_execucao_segundos": [
+      0.00037240004166960716
+    ],
+    "tempo_medio_segundos": 0.00037240004166960716,
+    "total_coloracoes_geradas": 6
+  },
+  "grafo_simples_5": {
+    "num_vertices": 5,
+    "num_arestas": 5,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 1,
+      "3": 0,
+      "4": 2
+    },
+    "tempos_execucao_segundos": [
+      0.00043889996595680714
+    ],
+    "tempo_medio_segundos": 0.00043889996595680714,
+    "total_coloracoes_geradas": 17
+  },
+  "grafo_simples_7": {
+    "num_vertices": 7,
+    "num_arestas": 9,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 1,
+      "3": 2,
+      "4": 2,
+      "5": 0,
+      "6": 0
+    },
+    "tempos_execucao_segundos": [
+      0.00041660014539957047
+    ],
+    "tempo_medio_segundos": 0.00041660014539957047,
+    "total_coloracoes_geradas": 21
+  },
+  "grafo_simples_9": {
+    "num_vertices": 9,
+    "num_arestas": 15,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 1,
+      "4": 2,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 1
+    },
+    "tempos_execucao_segundos": [
+      0.0008968999609351158
+    ],
+    "tempo_medio_segundos": 0.0008968999609351158,
+    "total_coloracoes_geradas": 17
+  },
+  "grafo_simples_11": {
+    "num_vertices": 11,
+    "num_arestas": 17,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 1,
+      "4": 2,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 1,
+      "9": 0,
+      "10": 1
+    },
+    "tempos_execucao_segundos": [
+      0.0005429999437183142
+    ],
+    "tempo_medio_segundos": 0.0005429999437183142,
+    "total_coloracoes_geradas": 19
+  },
+  "grafo_simples_13": {
+    "num_vertices": 13,
+    "num_arestas": 19,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 1,
+      "4": 2,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 1,
+      "9": 0,
+      "10": 1,
+      "11": 0,
+      "12": 1
+    },
+    "tempos_execucao_segundos": [
+      0.0018275999464094639
+    ],
+    "tempo_medio_segundos": 0.0018275999464094639,
+    "total_coloracoes_geradas": 21
+  },
+  "grafo_simples_15": {
+    "num_vertices": 15,
+    "num_arestas": 21,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 1,
+      "4": 2,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 1,
+      "9": 0,
+      "10": 1,
+      "11": 0,
+      "12": 1,
+      "13": 0,
+      "14": 1
+    },
+    "tempos_execucao_segundos": [
+      0.0026805999223142862
+    ],
+    "tempo_medio_segundos": 0.0026805999223142862,
+    "total_coloracoes_geradas": 23
+  },
+  "grafo_simples_17": {
+    "num_vertices": 17,
+    "num_arestas": 23,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 1,
+      "4": 2,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 1,
+      "9": 0,
+      "10": 1,
+      "11": 0,
+      "12": 1,
+      "13": 0,
+      "14": 1,
+      "15": 0,
+      "16": 1
+    },
+    "tempos_execucao_segundos": [
+      0.0006524999625980854
+    ],
+    "tempo_medio_segundos": 0.0006524999625980854,
+    "total_coloracoes_geradas": 25
+  },
+  "grafo_caso_real": {
+    "num_vertices": 6,
+    "num_arestas": 7,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 2
+    },
+    "tempos_execucao_segundos": [
+      0.0006560999900102615
+    ],
+    "tempo_medio_segundos": 0.0006560999900102615,
+    "total_coloracoes_geradas": 20
+  }
+}
