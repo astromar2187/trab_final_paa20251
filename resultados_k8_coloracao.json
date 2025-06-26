@@ -1,0 +1,25 @@
+{
+  "grafo_completo_k8": {
+    "num_vertices": 8,
+    "num_arestas": 28,
+    "cores_minimas_encontradas": 8,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tempos_execucao_segundos": [
+      3.6307363999076188,
+      3.735245200106874,
+      3.6068875999189913,
+      3.534021500032395,
+      3.533613200066611
+    ],
+    "tempo_medio_segundos": 3.608100780006498
+  }
+}

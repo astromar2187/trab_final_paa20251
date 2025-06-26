@@ -1,0 +1,24 @@
+{
+  "grafo_completo_k7": {
+    "num_vertices": 7,
+    "num_arestas": 21,
+    "cores_minimas_encontradas": 7,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "tempos_execucao_segundos": [
+      118.19924300001003,
+      122.8366623998154,
+      126.65227760002017,
+      117.57402359996922,
+      123.31307140015997
+    ],
+    "tempo_medio_segundos": 121.71505559999495
+  }
+}

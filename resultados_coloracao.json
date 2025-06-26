@@ -1,0 +1,97 @@
+{
+  "grafo_simples_p3": {
+    "num_vertices": 3,
+    "num_arestas": 2,
+    "cores_minimas_encontradas": 2,
+    "coloracao_encontrada": [
+      0,
+      1,
+      0
+    ],
+    "tempos_execucao_segundos": [
+      1.950003206729889e-05,
+      5.699926987290382e-06,
+      3.90014611184597e-06,
+      1.0499963536858559e-05,
+      3.8000289350748062e-06
+    ],
+    "tempo_medio_segundos": 8.680019527673722e-06
+  },
+  "grafo_completo_k4": {
+    "num_vertices": 4,
+    "num_arestas": 6,
+    "cores_minimas_encontradas": 4,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tempos_execucao_segundos": [
+      7.269997149705887e-05,
+      8.190004155039787e-05,
+      7.609999738633633e-05,
+      6.820005364716053e-05,
+      6.600003689527512e-05
+    ],
+    "tempo_medio_segundos": 7.298002019524574e-05
+  },
+  "grafo_triangulo_c3": {
+    "num_vertices": 3,
+    "num_arestas": 3,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2
+    ],
+    "tempos_execucao_segundos": [
+      1.7399899661540985e-05,
+      1.0200077667832375e-05,
+      1.0699965059757233e-05,
+      9.600073099136353e-06,
+      9.499955922365189e-06
+    ],
+    "tempo_medio_segundos": 1.1479994282126426e-05
+  },
+  "grafo_completo_k5": {
+    "num_vertices": 5,
+    "num_arestas": 10,
+    "cores_minimas_encontradas": 5,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "tempos_execucao_segundos": [
+      0.0006361999548971653,
+      0.0006921999156475067,
+      0.000502999871969223,
+      0.0004795999266207218,
+      0.00046970020048320293
+    ],
+    "tempo_medio_segundos": 0.000556139973923564
+  },
+  "grafo_maior_teste": {
+    "num_vertices": 5,
+    "num_arestas": 8,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    "tempos_execucao_segundos": [
+      4.549999721348286e-05,
+      4.8999907448887825e-05,
+      4.859990440309048e-05,
+      5.729985423386097e-05,
+      6.340001709759235e-05
+    ],
+    "tempo_medio_segundos": 5.27599360793829e-05
+  }
+}

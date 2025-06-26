@@ -1,0 +1,26 @@
+{
+  "k9": {
+    "num_vertices": 9,
+    "num_arestas": 36,
+    "cores_minimas_encontradas": 9,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "tempos_execucao_segundos": [
+      92.88954050000757,
+      93.69711060007103,
+      103.96921380003914,
+      112.63833700004034,
+      95.93412929982878
+    ],
+    "tempo_medio_segundos": 99.82566623999737
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "grafo_completo_k4": {
+    "num_vertices": 4,
+    "num_arestas": 6,
+    "cores_minimas_encontradas": 4,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tempos_execucao_segundos": [
+      0.04014269984327257,
+      0.04137369990348816,
+      0.04717679996974766
+    ],
+    "tempo_medio_segundos": 0.04289773323883613,
+    "total_coloracoes_geradas": 256
+  }
+}
