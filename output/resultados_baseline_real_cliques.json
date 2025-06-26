@@ -187,5 +187,31 @@
     ],
     "tempo_medio_segundos": 98.5210228333405,
     "total_coloracoes_geradas": 10976195
+  },
+  "grafo_completo_k12": {
+    "num_vertices": 12,
+    "num_arestas": 66,
+    "cores_minimas_encontradas": 12,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11
+    },
+    "tempos_execucao_segundos": [
+      1279.3184941001236,
+      1308.4174559998792,
+      2160.9243399999104
+    ],
+    "tempo_medio_segundos": 1582.8867633666378,
+    "total_coloracoes_geradas": 119481308
   }
 }

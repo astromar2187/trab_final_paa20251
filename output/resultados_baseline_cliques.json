@@ -1,0 +1,118 @@
+{
+  "grafo_completo_k3": {
+    "num_vertices": 3,
+    "num_arestas": 3,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2
+    ],
+    "tempos_execucao_segundos": [
+      0.0008916999213397503
+    ],
+    "tempo_medio_segundos": 0.0008916999213397503,
+    "total_coloracoes_geradas": 36
+  },
+  "grafo_completo_k4": {
+    "num_vertices": 4,
+    "num_arestas": 6,
+    "cores_minimas_encontradas": 4,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tempos_execucao_segundos": [
+      0.0012914000544697046
+    ],
+    "tempo_medio_segundos": 0.0012914000544697046,
+    "total_coloracoes_geradas": 354
+  },
+  "grafo_completo_k5": {
+    "num_vertices": 5,
+    "num_arestas": 10,
+    "cores_minimas_encontradas": 5,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "tempos_execucao_segundos": [
+      0.002788499929010868
+    ],
+    "tempo_medio_segundos": 0.002788499929010868,
+    "total_coloracoes_geradas": 4425
+  },
+  "grafo_completo_k6": {
+    "num_vertices": 6,
+    "num_arestas": 15,
+    "cores_minimas_encontradas": 6,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "tempos_execucao_segundos": [
+      0.029867999954149127
+    ],
+    "tempo_medio_segundos": 0.029867999954149127,
+    "total_coloracoes_geradas": 67171
+  },
+  "grafo_completo_k7": {
+    "num_vertices": 7,
+    "num_arestas": 21,
+    "cores_minimas_encontradas": 7,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "tempos_execucao_segundos": [
+      0.5799519999418408
+    ],
+    "tempo_medio_segundos": 0.5799519999418408,
+    "total_coloracoes_geradas": 1200304
+  },
+  "grafo_completo_k8": {
+    "num_vertices": 8,
+    "num_arestas": 28,
+    "cores_minimas_encontradas": 8,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tempos_execucao_segundos": [
+      20.46000810014084
+    ],
+    "tempo_medio_segundos": 20.46000810014084,
+    "total_coloracoes_geradas": 24684612
+  },
+  "grafo_completo_k9": {
+    "num_vertices": 9,
+    "num_arestas": 36,
+    "cores_minimas_encontradas": "ERRO: ",
+    "coloracao_encontrada": "ERRO: ",
+    "tempos_execucao_segundos": [
+      "ERRO: "
+    ],
+    "tempo_medio_segundos": "ERRO: Nenhum teste completado",
+    "total_coloracoes_geradas": "0*"
+  }
+}
