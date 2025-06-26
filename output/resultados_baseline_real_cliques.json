@@ -1,0 +1,191 @@
+{
+  "grafo_completo_k3": {
+    "num_vertices": 3,
+    "num_arestas": 3,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "tempos_execucao_segundos": [
+      0.0005447999574244022,
+      0.00045350007712841034,
+      0.00036569987423717976
+    ],
+    "tempo_medio_segundos": 0.00045466663626333076,
+    "total_coloracoes_geradas": 11
+  },
+  "grafo_completo_k4": {
+    "num_vertices": 4,
+    "num_arestas": 6,
+    "cores_minimas_encontradas": 4,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    },
+    "tempos_execucao_segundos": [
+      0.0006255998741835356,
+      0.0005042999982833862,
+      0.000624299980700016
+    ],
+    "tempo_medio_segundos": 0.0005847332843889793,
+    "total_coloracoes_geradas": 28
+  },
+  "grafo_completo_k5": {
+    "num_vertices": 5,
+    "num_arestas": 10,
+    "cores_minimas_encontradas": 5,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "tempos_execucao_segundos": [
+      0.001083199866116047,
+      0.0009899998549371958,
+      0.0009653999004513025
+    ],
+    "tempo_medio_segundos": 0.0010128665405015151,
+    "total_coloracoes_geradas": 94
+  },
+  "grafo_completo_k6": {
+    "num_vertices": 6,
+    "num_arestas": 15,
+    "cores_minimas_encontradas": 6,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    },
+    "tempos_execucao_segundos": [
+      0.003084799973294139,
+      0.0019345998298376799,
+      0.002791500184684992
+    ],
+    "tempo_medio_segundos": 0.00260363332927227,
+    "total_coloracoes_geradas": 421
+  },
+  "grafo_completo_k7": {
+    "num_vertices": 7,
+    "num_arestas": 21,
+    "cores_minimas_encontradas": 7,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6
+    },
+    "tempos_execucao_segundos": [
+      0.00998610001988709,
+      0.010239100083708763,
+      0.014570700004696846
+    ],
+    "tempo_medio_segundos": 0.0115986333694309,
+    "total_coloracoes_geradas": 2379
+  },
+  "grafo_completo_k8": {
+    "num_vertices": 8,
+    "num_arestas": 28,
+    "cores_minimas_encontradas": 8,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7
+    },
+    "tempos_execucao_segundos": [
+      0.07369229989126325,
+      0.07189599983394146,
+      0.0816134000197053
+    ],
+    "tempo_medio_segundos": 0.07573389991497,
+    "total_coloracoes_geradas": 16080
+  },
+  "grafo_completo_k9": {
+    "num_vertices": 9,
+    "num_arestas": 36,
+    "cores_minimas_encontradas": 9,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    },
+    "tempos_execucao_segundos": [
+      0.6966998998541385,
+      0.6918633999302983,
+      0.6906218999065459
+    ],
+    "tempo_medio_segundos": 0.6930617332303276,
+    "total_coloracoes_geradas": 125682
+  },
+  "grafo_completo_k10": {
+    "num_vertices": 10,
+    "num_arestas": 45,
+    "cores_minimas_encontradas": 10,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9
+    },
+    "tempos_execucao_segundos": [
+      7.6618557998444885,
+      7.610644100001082,
+      7.739727700129151
+    ],
+    "tempo_medio_segundos": 7.6707425333249075,
+    "total_coloracoes_geradas": 1112093
+  },
+  "grafo_completo_k11": {
+    "num_vertices": 11,
+    "num_arestas": 55,
+    "cores_minimas_encontradas": 11,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10
+    },
+    "tempos_execucao_segundos": [
+      93.57077970006503,
+      94.28437949996442,
+      107.70790929999202
+    ],
+    "tempo_medio_segundos": 98.5210228333405,
+    "total_coloracoes_geradas": 10976195
+  }
+}

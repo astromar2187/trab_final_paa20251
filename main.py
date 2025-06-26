@@ -3,12 +3,14 @@ import time
 import statistics
 import os
 from backtracking import coloracao_grafo_backtracking
+from real_backtracking import coloracao_grafo_real_backtracking
 
 QTD_TESTES = 1  # Número de rodadas para cada grafo
 
 # --- Funções de Leitura e Escrita de Dados ---
 def carregar_grafos_do_json(caminho_arquivo):
-    with open(caminho_arquivo, 'r', encoding='utf-8') as f:
+    caminho_completo = os.path.join("input", caminho_arquivo)
+    with open(caminho_completo, 'r', encoding='utf-8') as f:
         dados = json.load(f)
     
     grafos_analisados = {}
@@ -49,29 +51,31 @@ def executar_testes_e_medir_tempo(caminho_arquivo_grafos, caminho_arquivo_saida)
         tempos = []
         cores_minimas = None
         coloracao_encontrada = None
-        total_coloracoes = 0
         ultimo_total_coloracoes = 0
+        total_tentativas_acumuladas = 0  # Acumula tentativas de múltiplos testes (não k's)
         
         try:
             # Calcula o número de arestas
             num_arestas = sum(len(adj) for adj in dados_grafo.values()) // 2
 
             for i in range(QTD_TESTES):
+
                 print(f"  Executando teste {i+1}/{QTD_TESTES}")
-                
                 try:
                     inicio_tempo = time.perf_counter() # Usa perf_counter para medições de tempo mais precisas
-                    k, c, total_coloracoes = coloracao_grafo_backtracking(dados_grafo)
+                    k, c, tentativas = coloracao_grafo_real_backtracking(dados_grafo)
                     fim_tempo = time.perf_counter()
                     
                     tempos.append(fim_tempo - inicio_tempo)
-                    ultimo_total_coloracoes = total_coloracoes
+                    ultimo_total_coloracoes = tentativas
+                    # NÃO soma mais aqui - o algoritmo já retorna o total acumulado
                     
                     # A coloração e o número mínimo de cores serão os mesmos em todas as rodadas
                     # Podemos salvá-los na primeira rodada
                     if i == 0:
                         cores_minimas = k
                         coloracao_encontrada = c
+                        total_tentativas_acumuladas = tentativas  # Usa o valor do algoritmo
                 
                 except Exception as e:
                     print(f"    Erro no teste {i+1}: {e}")
@@ -93,7 +97,7 @@ def executar_testes_e_medir_tempo(caminho_arquivo_grafos, caminho_arquivo_saida)
             if any(isinstance(t, str) for t in tempos):
                 total_coloracoes_final = f"{ultimo_total_coloracoes}*"
             else:
-                total_coloracoes_final = total_coloracoes
+                total_coloracoes_final = total_tentativas_acumuladas  # Usa o total acumulado
             
             todos_resultados[id_grafo] = {
                 "num_vertices": len(dados_grafo),
@@ -117,7 +121,7 @@ def executar_testes_e_medir_tempo(caminho_arquivo_grafos, caminho_arquivo_saida)
                 "coloracao_encontrada": f"ERRO: {e}",
                 "tempos_execucao_segundos": [f"ERRO: {e}"],
                 "tempo_medio_segundos": f"ERRO: {e}",
-                "total_coloracoes_geradas": f"{ultimo_total_coloracoes}*"
+                "total_coloracoes_geradas": f"{total_tentativas_acumuladas}*"
             }
         
         # Salva após cada grafo para não perder dados
@@ -128,13 +132,16 @@ def executar_testes_e_medir_tempo(caminho_arquivo_grafos, caminho_arquivo_saida)
 
 # --- Execução Principal ---
 if __name__ == "__main__":
-    arquivo_json_entrada = "input/k9.json"
-    arquivo_json_saida = "resultados_baseline_"+arquivo_json_entrada
+    arquivo_json_entrada = "cliques.json"
+    arquivo_json_saida = "resultados_baseline_real_"+arquivo_json_entrada
 
     # Cria um arquivo 'grafos.json' de exemplo se ele não existir
     # ou garante que seu 'grafos.json' esteja no formato correto
+    caminho_entrada_completo = os.path.join("input", arquivo_json_entrada)
     try:
-        with open(arquivo_json_entrada, 'x', encoding='utf-8') as f:
+        # Cria o diretório input se não existir
+        os.makedirs("input", exist_ok=True)
+        with open(caminho_entrada_completo, 'x', encoding='utf-8') as f:
             grafos_exemplo = {
                 "grafo_simples_p3": {
                     "0": [1],

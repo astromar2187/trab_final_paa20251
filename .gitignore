@@ -1,0 +1,10 @@
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Arquivos temporários
+*.tmp
+*.log
