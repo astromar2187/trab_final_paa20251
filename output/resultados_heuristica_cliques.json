@@ -1,0 +1,222 @@
+{
+  "grafo_completo_k3": {
+    "num_vertices": 3,
+    "num_arestas": 3,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "tempos_execucao_segundos": [
+      4.779989831149578e-05
+    ],
+    "tempo_medio_segundos": 4.779989831149578e-05,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k4": {
+    "num_vertices": 4,
+    "num_arestas": 6,
+    "cores_minimas_encontradas": 4,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    },
+    "tempos_execucao_segundos": [
+      3.2899901270866394e-05
+    ],
+    "tempo_medio_segundos": 3.2899901270866394e-05,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k5": {
+    "num_vertices": 5,
+    "num_arestas": 10,
+    "cores_minimas_encontradas": 5,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    },
+    "tempos_execucao_segundos": [
+      4.0999846532940865e-05
+    ],
+    "tempo_medio_segundos": 4.0999846532940865e-05,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k6": {
+    "num_vertices": 6,
+    "num_arestas": 15,
+    "cores_minimas_encontradas": 6,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    },
+    "tempos_execucao_segundos": [
+      3.100000321865082e-05
+    ],
+    "tempo_medio_segundos": 3.100000321865082e-05,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k7": {
+    "num_vertices": 7,
+    "num_arestas": 21,
+    "cores_minimas_encontradas": 7,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6
+    },
+    "tempos_execucao_segundos": [
+      9.050010703504086e-05
+    ],
+    "tempo_medio_segundos": 9.050010703504086e-05,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k8": {
+    "num_vertices": 8,
+    "num_arestas": 28,
+    "cores_minimas_encontradas": 8,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7
+    },
+    "tempos_execucao_segundos": [
+      6.449990905821323e-05
+    ],
+    "tempo_medio_segundos": 6.449990905821323e-05,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k9": {
+    "num_vertices": 9,
+    "num_arestas": 36,
+    "cores_minimas_encontradas": 9,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    },
+    "tempos_execucao_segundos": [
+      8.350005373358727e-05
+    ],
+    "tempo_medio_segundos": 8.350005373358727e-05,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k10": {
+    "num_vertices": 10,
+    "num_arestas": 45,
+    "cores_minimas_encontradas": 10,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9
+    },
+    "tempos_execucao_segundos": [
+      7.280008867383003e-05
+    ],
+    "tempo_medio_segundos": 7.280008867383003e-05,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k11": {
+    "num_vertices": 11,
+    "num_arestas": 55,
+    "cores_minimas_encontradas": 11,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10
+    },
+    "tempos_execucao_segundos": [
+      0.00012019998393952847
+    ],
+    "tempo_medio_segundos": 0.00012019998393952847,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k12": {
+    "num_vertices": 12,
+    "num_arestas": 66,
+    "cores_minimas_encontradas": 12,
+    "coloracao_encontrada": {
+      "11": 0,
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10,
+      "10": 11
+    },
+    "tempos_execucao_segundos": [
+      0.00016609998419880867
+    ],
+    "tempo_medio_segundos": 0.00016609998419880867,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k13": {
+    "num_vertices": 13,
+    "num_arestas": 78,
+    "cores_minimas_encontradas": 13,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12
+    },
+    "tempos_execucao_segundos": [
+      0.00019789999350905418
+    ],
+    "tempo_medio_segundos": 0.00019789999350905418,
+    "total_coloracoes_geradas": 0
+  }
+}

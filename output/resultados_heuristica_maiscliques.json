@@ -1,0 +1,205 @@
+{
+  "grafo_completo_k14": {
+    "num_vertices": 14,
+    "num_arestas": 91,
+    "cores_minimas_encontradas": 14,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13
+    },
+    "tempos_execucao_segundos": [
+      0.00015499978326261044
+    ],
+    "tempo_medio_segundos": 0.00015499978326261044,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k15": {
+    "num_vertices": 15,
+    "num_arestas": 105,
+    "cores_minimas_encontradas": 15,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14
+    },
+    "tempos_execucao_segundos": [
+      0.0001797000877559185
+    ],
+    "tempo_medio_segundos": 0.0001797000877559185,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k16": {
+    "num_vertices": 16,
+    "num_arestas": 120,
+    "cores_minimas_encontradas": 16,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15
+    },
+    "tempos_execucao_segundos": [
+      0.00017250003293156624
+    ],
+    "tempo_medio_segundos": 0.00017250003293156624,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k17": {
+    "num_vertices": 17,
+    "num_arestas": 136,
+    "cores_minimas_encontradas": 17,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16
+    },
+    "tempos_execucao_segundos": [
+      0.0003633000887930393
+    ],
+    "tempo_medio_segundos": 0.0003633000887930393,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k18": {
+    "num_vertices": 18,
+    "num_arestas": 153,
+    "cores_minimas_encontradas": 18,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17
+    },
+    "tempos_execucao_segundos": [
+      0.0002462000120431185
+    ],
+    "tempo_medio_segundos": 0.0002462000120431185,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k19": {
+    "num_vertices": 19,
+    "num_arestas": 171,
+    "cores_minimas_encontradas": 19,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18
+    },
+    "tempos_execucao_segundos": [
+      0.00025269994512200356
+    ],
+    "tempo_medio_segundos": 0.00025269994512200356,
+    "total_coloracoes_geradas": 0
+  },
+  "grafo_completo_k20": {
+    "num_vertices": 20,
+    "num_arestas": 190,
+    "cores_minimas_encontradas": 20,
+    "coloracao_encontrada": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19
+    },
+    "tempos_execucao_segundos": [
+      0.000579299870878458
+    ],
+    "tempo_medio_segundos": 0.000579299870878458,
+    "total_coloracoes_geradas": 0
+  }
+}

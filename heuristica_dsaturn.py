@@ -60,4 +60,4 @@ def dsatur_coloracao(grafo):
 
         k = max(k, cor_atribuida + 1)
 
-    return k, coloracoes, num_nos
+    return k, coloracoes, 0

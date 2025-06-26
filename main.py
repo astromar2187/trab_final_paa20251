@@ -4,6 +4,7 @@ import statistics
 import os
 from backtracking import coloracao_grafo_backtracking
 from real_backtracking import coloracao_grafo_real_backtracking
+from heuristica_dsaturn import dsatur_coloracao
 
 QTD_TESTES = 1  # Número de rodadas para cada grafo
 
@@ -63,7 +64,7 @@ def executar_testes_e_medir_tempo(caminho_arquivo_grafos, caminho_arquivo_saida)
                 print(f"  Executando teste {i+1}/{QTD_TESTES}")
                 try:
                     inicio_tempo = time.perf_counter() # Usa perf_counter para medições de tempo mais precisas
-                    k, c, tentativas = coloracao_grafo_real_backtracking(dados_grafo)
+                    k, c, tentativas = dsatur_coloracao(dados_grafo)
                     fim_tempo = time.perf_counter()
                     
                     tempos.append(fim_tempo - inicio_tempo)
@@ -132,9 +133,9 @@ def executar_testes_e_medir_tempo(caminho_arquivo_grafos, caminho_arquivo_saida)
 
 # --- Execução Principal ---
 if __name__ == "__main__":
-    arquivo_json_entrada = "casos_normais.json"
+    arquivo_json_entrada = "maiscliques.json"
     #arquivo_json_saida = "resultados_baseline_real_"+arquivo_json_entrada
-    arquivo_json_saida = "resultados_baseline_real_"+arquivo_json_entrada
+    arquivo_json_saida = "resultados_heuristica_"+arquivo_json_entrada
 
     # Cria um arquivo 'grafos.json' de exemplo se ele não existir
     # ou garante que seu 'grafos.json' esteja no formato correto
