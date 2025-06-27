@@ -9,9 +9,9 @@
       0
     ],
     "tempos_execucao_segundos": [
-      0.0007215000223368406
+      0.0006376998499035835
     ],
-    "tempo_medio_segundos": 0.0007215000223368406,
+    "tempo_medio_segundos": 0.0006376998499035835,
     "total_coloracoes_geradas": 9
   },
   "grafo_simples_5": {
@@ -26,9 +26,9 @@
       2
     ],
     "tempos_execucao_segundos": [
-      0.0006923999171704054
+      0.0009774998761713505
     ],
-    "tempo_medio_segundos": 0.0006923999171704054,
+    "tempo_medio_segundos": 0.0009774998761713505,
     "total_coloracoes_geradas": 276
   },
   "grafo_simples_7": {
@@ -45,9 +45,9 @@
       0
     ],
     "tempos_execucao_segundos": [
-      0.0014502000994980335
+      0.0027101999148726463
     ],
-    "tempo_medio_segundos": 0.0014502000994980335,
+    "tempo_medio_segundos": 0.0027101999148726463,
     "total_coloracoes_geradas": 2316
   },
   "grafo_simples_9": {
@@ -66,9 +66,9 @@
       1
     ],
     "tempos_execucao_segundos": [
-      0.010365699883550406
+      0.01016639987938106
     ],
-    "tempo_medio_segundos": 0.010365699883550406,
+    "tempo_medio_segundos": 0.01016639987938106,
     "total_coloracoes_geradas": 20196
   },
   "grafo_simples_11": {
@@ -89,9 +89,9 @@
       1
     ],
     "tempos_execucao_segundos": [
-      0.08303129998967052
+      0.0810901999939233
     ],
-    "tempo_medio_segundos": 0.08303129998967052,
+    "tempo_medio_segundos": 0.0810901999939233,
     "total_coloracoes_geradas": 179196
   },
   "grafo_simples_13": {
@@ -114,9 +114,9 @@
       1
     ],
     "tempos_execucao_segundos": [
-      1.0925129000097513
+      1.0752467000856996
     ],
-    "tempo_medio_segundos": 1.0925129000097513,
+    "tempo_medio_segundos": 1.0752467000856996,
     "total_coloracoes_geradas": 1602516
   },
   "grafo_simples_15": {
@@ -141,9 +141,9 @@
       1
     ],
     "tempos_execucao_segundos": [
-      11.283356299856678
+      11.64197689993307
     ],
-    "tempo_medio_segundos": 11.283356299856678,
+    "tempo_medio_segundos": 11.64197689993307,
     "total_coloracoes_geradas": 14381676
   }
 }
