@@ -145,5 +145,52 @@
     ],
     "tempo_medio_segundos": 11.64197689993307,
     "total_coloracoes_geradas": 14381676
+  },
+  "grafo_simples_17": {
+    "num_vertices": 17,
+    "num_arestas": 23,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": [
+      0,
+      1,
+      2,
+      1,
+      2,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "tempos_execucao_segundos": [
+      1638.4129741999786
+    ],
+    "tempo_medio_segundos": 1638.4129741999786,
+    "total_coloracoes_geradas": 129271236
+  },
+  "grafo_caso_real": {
+    "num_vertices": 6,
+    "num_arestas": 7,
+    "cores_minimas_encontradas": 3,
+    "coloracao_encontrada": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    "tempos_execucao_segundos": [
+      0.002344599924981594
+    ],
+    "tempo_medio_segundos": 0.002344599924981594,
+    "total_coloracoes_geradas": 794
   }
 }
